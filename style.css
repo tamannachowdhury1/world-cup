@@ -103,14 +103,16 @@ a {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 18px;
-    margin-right: 100px;
 }
 
 .player-box {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
     background-color: #FFFFFF;
     border-radius: 5px;
-    width: 312px;
+}
+
+.player-box img {
+    width: 100%;
 }
 
 .player-information {
@@ -161,7 +163,8 @@ span {
 
 .block-2 {
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+    /* grid-template-rows: 400px 1fr; */
     padding: 50px;
     gap: 15px;
     border: 2px solid #161616;
