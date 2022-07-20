@@ -56,12 +56,12 @@ body {
     background-color: #DD0000;
     border: none;
     padding: 16px 25px;
-    color: #090909;
+    color: #f8f2f2;
     border-radius: 5px;
 }
 
 #button-animation:hover {
-    color: #FFFFFF;
+    color: #2a2828;
     cursor: pointer;
     background-color: #B9B9B9;
     box-shadow: 0px 9px #999;
