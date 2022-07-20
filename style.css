@@ -12,7 +12,7 @@ body {
     background-color: #161616;
     border-radius: 20px;
     width: 80%;
-    margin: 5%;
+    margin: 6%;
     margin-left: 155px;
 }
 
@@ -59,9 +59,10 @@ body {
 /********** 1st section style end ***********/
 /*********** main style ***********/
 .container-player {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     width: 50%;
-    padding-left: 20px;
+    padding-left: 40px;
     /* grid-template-columns: repeat(2, 1fr); */
 
 }
