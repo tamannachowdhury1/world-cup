@@ -60,7 +60,6 @@ body {
     border-radius: 5px;
 }
 
-
 #button-animation:hover {
     color: #FFFFFF;
     cursor: pointer;
@@ -181,7 +180,6 @@ span {
     border-radius: 15px;
 }
 
-
 .player-ratings {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -213,4 +211,14 @@ span {
     text-align: center;
     color: #161616;
     font-size: 20px;
+}
+
+.view {
+    background-color: #DD0000;
+    border: none;
+    padding: 16px 50px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin-left: 45%;
+    margin-top: 5%;
 }
