@@ -59,8 +59,7 @@ body {
 /********** 1st section style end ***********/
 /*********** main style ***********/
 .container-player {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
     width: 50%;
     padding-left: 40px;
     /* grid-template-columns: repeat(2, 1fr); */
@@ -73,7 +72,7 @@ body {
     padding: 30px;
     gap: 20px;
     border: 2px solid #161616;
-    width: 45%;
+    width: 50%;
     height: 23%;
     background-color: #161616;
     border-radius: 15px;
