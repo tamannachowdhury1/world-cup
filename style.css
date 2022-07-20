@@ -156,7 +156,7 @@ span {
 
 .container-player-2 {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 400px 1fr;
 
 
 }
@@ -164,16 +164,17 @@ span {
 .block-2 {
     display: grid;
     /* grid-template-rows: repeat(3, 1fr); */
-    /* grid-template-rows: 400px 1fr; */
+    grid-template-rows: 400px 1fr;
     padding: 50px;
     gap: 15px;
     border: 2px solid #161616;
-    width: 40%;
-    height: 50%;
+    width: 50%;
+    height: 23%;
     background-color: #161616;
     border-radius: 15px;
-    margin-left: 165px;
+
 }
+
 
 .player-ratings {
     display: grid;
