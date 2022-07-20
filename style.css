@@ -11,19 +11,18 @@ body {
     grid-template-columns: repeat(2, 1fr);
     background-color: #161616;
     border-radius: 20px;
-    width: 1300px;
-
+    width: 80%;
+    margin: 5%;
+    margin-left: 150px;
 }
 
 .player {
-    padding-left: 100px;
+    padding-left: 80px;
     padding-top: 45px;
 }
 
 .player img {
-
     width: 450px;
-
 }
 
 .player-info {
