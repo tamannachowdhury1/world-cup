@@ -161,7 +161,14 @@ span {
     height: 50%;
     background-color: #161616;
     border-radius: 15px;
-    margin-left: 100px;
+    margin-left: 165px;
+}
+
+.player-ratings {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    margin-right: 145px;
 }
 
 .red-2 {
