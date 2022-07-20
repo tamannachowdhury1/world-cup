@@ -166,7 +166,7 @@ span {
 
 .container-player-2 {
     display: grid;
-    grid-template-columns: 329px 1fr;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .block-2 {
