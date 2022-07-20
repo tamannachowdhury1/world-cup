@@ -17,7 +17,7 @@ body {
 }
 
 .container-1 {
-    width: 95%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -73,7 +73,7 @@ body {
     grid-template-rows: repeat(3, 1fr);
     padding: 30px;
     gap: 20px;
-    border: 2px solid #161616;
+    /* border: 2px solid #161616; */
     width: 50%;
     height: 23%;
     background-color: #161616;
