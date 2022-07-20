@@ -17,7 +17,8 @@ body {
 }
 
 .container-1 {
-    width: 80%;
+    width: 95%;
+    margin: 0 auto;
 }
 
 .player {
@@ -59,10 +60,11 @@ body {
 /********** 1st section style end ***********/
 /*********** main style ***********/
 .container-player {
-    display: flex;
-    width: 50%;
-    padding-left: 40px;
-    /* grid-template-columns: repeat(2, 1fr); */
+    display: grid;
+    /* width: 95%;
+    margin: 0 auto; */
+    /* padding-left: 40px; */
+    grid-template-columns: 400px 1fr;
 
 }
 
@@ -76,16 +78,16 @@ body {
     height: 23%;
     background-color: #161616;
     border-radius: 15px;
-    margin-left: 87px;
+    /* margin-left: 87px; */
 
 }
 
 a {
     background-color: #FFFFFF;
     border: 2px solid black;
-    width: 175px;
+    /* width: 175px; */
     text-align: center;
-    padding: 18px;
+    padding: 16px 17px;
     color: #161616;
     border-radius: 5px;
     font-size: 16px;
