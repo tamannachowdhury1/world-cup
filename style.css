@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-
+    margin: 0px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
@@ -11,8 +11,8 @@ body {
     grid-template-columns: repeat(2, 1fr);
     background-color: #161616;
     border-radius: 20px;
-    width: 1000px;
-    margin: auto;
+    width: 1300px;
+
 }
 
 .player {
