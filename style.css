@@ -16,6 +16,10 @@ body {
     margin-left: 150px;
 }
 
+.container-1 {
+    width: 80%;
+}
+
 .player {
     padding-left: 80px;
     padding-top: 45px;
@@ -55,8 +59,9 @@ body {
 /********** 1st section style end ***********/
 /*********** main style ***********/
 .container-player {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    width: 30%;
+    /* grid-template-columns: repeat(2, 1fr); */
 
 }
 
