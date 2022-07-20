@@ -6,6 +6,16 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
 
 /*********** 1st section style start ************/
+@keyframes sliding {
+    from {
+        background-color: gray;
+    }
+
+    to {
+        background-color: blue;
+    }
+}
+
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -14,6 +24,8 @@ body {
     width: 80%;
     margin: 5%;
     margin-left: 160px;
+    animation: sliding 5s ease-in-out 0.5s 3 alternate;
+    animation-play-state: running;
 }
 
 .container-1 {
