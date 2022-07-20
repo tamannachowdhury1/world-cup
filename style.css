@@ -99,7 +99,7 @@ a {
 }
 
 .red {
-    background-color: #DD0000;
+    background-color: #7200dd;
     color: #FFFFFF;
 }
 
@@ -159,6 +159,11 @@ span {
 
 /* footer end */
 /* **********upcoming match style*********** */
+.container {
+    width: 84%;
+
+}
+
 .container-player-2 {
     display: grid;
     grid-template-columns: 400px 1fr;
@@ -185,7 +190,7 @@ span {
 }
 
 .red-2 {
-    background-color: #DD0000;
+    background-color: #7600dd;
     color: #FFFFFF;
 }
 
