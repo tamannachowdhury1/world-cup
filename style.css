@@ -58,6 +58,7 @@ body {
 .container-player {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+
 }
 
 .block {
