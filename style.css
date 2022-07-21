@@ -267,9 +267,58 @@ span {
         display: block;
         padding: 10px;
     }
+
+    .view {
+        visibility: hidden;
+    }
 }
 
-@media only screen and (min-width:688px) and (max-width:992px) {}
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .container {
+        width: 100%;
+        margin: 4%;
+    }
+
+
+
+    .container-player {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+    }
+
+    .player-ratings {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 5px;
+        row-gap: 5px;
+        margin-left: 5%;
+
+    }
+
+
+    .block {
+        display: grid;
+        /* grid-template-rows: repeat(3, 1fr); */
+        grid-template-columns: repeat(3, 1fr);
+        padding: 40px;
+        column-gap: 5px;
+        width: 80%;
+        background-color: #FFFFFF;
+        border-radius: 15px;
+        margin-left: 5%;
+    }
+
+    .view {
+        visibility: visible;
+    }
+
+    .player-rating {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 
 /* *************Index.html Media Queries tablet divice start***************** */
 @media only screen and (min-width:688px) and (max-width:992) {}
